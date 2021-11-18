@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.4;
+  color: rgbrgb(224, 213, 213);
+  background: rgb(224, 213, 213);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: rgb(224, 213, 213);
+  border-right: 1px solid rgb(14, 13, 13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbarContainer h1 {
+  width: 50%;
+  display: block;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+.navbarContainer li {
+  list-style: none;
+}
+.navbarContainer a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.inner {
+  width: 100%;
+  padding: 8rem 10px 4rem;
+}
+
+.form-container {
+  background: rgb(188, 159, 202);
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: calc(0.5 * 100px);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  justify-content: space-evenly;
+}
+
+.input-text {
+  background: rgb(188, 159, 202);
+  font-size: 1rem;
+  font-weight: 400;
+  width: 85%;
+  padding-right: 15px;
+  padding-left: 10px;
+  border-radius: calc(0.5 * 100px);
+}
+
+.input-text::placeholder {
+  color: rgb(30, 31, 29);
+}
+
+.input-submit {
+  background: transparent;
+  color: #2c2929;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.input-text,
+.input-submit {
+  height: 40px;
+  outline: none;
+  border: none;
+}
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: rgb(224, 213, 213);
+  border-right: 1px solid rgb(14, 13, 13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
